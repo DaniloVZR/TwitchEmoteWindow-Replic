@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
+    <title>Show Emote</title>
+</head>
+<body>
+    <form class="formulario contenedor">
+        <div class="section">
+            <h1>Show Emote</h1>
+            <p>Allow viewers to place emotes on your stream screen from chat.</p>
+        </div>
+        <div class="section">
+            <h2>Channel Name</h2>
+            <p>Name of the twitch channel to connect to, for example twitch.tv/<span>rubius</span></p>
+            <input type="text" placeholder="Rubius">
+        </div>        
+        <div class="section">
+            <h2>Emotes</h2>
+            <p>There are different "emote providers" available for use:</p>
+            <div class="opciones">
+                <div class="option">
+                    <input type="checkbox"><label>Twitch</label>
+                </div> 
+                <div class="option">
+                    <input type="checkbox"><label>7TV</label>
+                </div>
+                <div class="option">
+                    <input type="checkbox"><label>BetterTTV</label>
+                </div>
+                <div class="option">
+                    <input type="checkbox"><label>FrankerFaceZ</label>
+                </div>
+            </div>
+        </div>
+        <div class="botones">
+            <a href="#" class="boton selected"><span class="ec ec-link"></span>Generate OBS link</a>
+            <a href="#" class="boton"><span class="ec ec-sparkling-heart"></span>Donate</a>
+            <a href="#" class="boton"><span class="ec ec-sparkles"></span>Follow on Twitter</a>
+        </div>
+    </form>
+</body>
+</html>
